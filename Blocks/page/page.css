@@ -1,0 +1,7 @@
+.page {
+  position: relative;
+  width: 1280px;
+  min-height: 6875px;
+  background: #2A2C2F;
+  margin: 0 auto;
+}
