@@ -7,3 +7,24 @@
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
+@media screen and (max-width: 1279px) {
+    .place__image {
+      max-width: 440px;
+      max-height: 440px;
+    }
+   }
+  
+  @media screen and (max-width: 1023px) {
+    .place__image {
+      max-width: 340px;
+      max-height: 340px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place__image {
+      max-width: 320px;
+      max-height: 320px;
+    }
+  }

@@ -1,14 +1,16 @@
 .footer__copyright {
-  min-width: 186px;
+  margin: 0;
+  padding: 0;
   height: 16px;
-  border-radius: nullpx;
-  
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  display: flex;
   text-align: right;
+  justify-content: flex-end;
+  flex-direction: column;
 
   color: #FFFFFF;
   list-style-type: none;

@@ -4,6 +4,7 @@
   /*width: calc(100% - 145px*2);*/
   text-align: center;
   padding-left: 148px;
+  padding-right: 148px;
 }
 
 @media screen and (max-width: 1279px) {

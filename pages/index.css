@@ -1,19 +1,19 @@
-@import url(../vendor/normalize.css);
+@import url(../Vendor/normalize.css);
 
-@import url(../vendor/fonts/fonts.css);
+@import url(../Vendor/fonts/fonts.css);
 @import url(../Blocks/body/body.css);
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/header/header.css);
+@import url(../Blocks/header/header.css);
 @import url(../Blocks/header/__logo/header__logo.css);
 @import url(../Blocks/header/__item/header__item.css);
 @import url(../Blocks/header/__lang-list/header__lang-list.css);
 @import url(../Blocks/header/__item-lang-list/header__item-lang-list.css);
 @import url(../Blocks/header/__item-lang-lists/header__item-lang-lists.css);
 
-@import url(../blocks/lead/lead.css);
-@import url(../blocks/lead/__title/lead__title.css);
-@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../Blocks/lead/lead.css);
+@import url(../Blocks/lead/__title/lead__title.css);
+@import url(../Blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../Blocks/lead/__polka-illustration/lead__polka-illustration.css);
 @import url(../Blocks/lead/__caption/lead__caption.css);
 
@@ -48,3 +48,4 @@
 @import url(../Blocks/footer/__copyright/footer__copyright.css);
 @import url(../Blocks/footer/__link/footer__link.css);
 @import url(../Blocks/footer/__blok/footer__blok.css);
+@import url(../Blocks/footer/__links/footer__links.css);
