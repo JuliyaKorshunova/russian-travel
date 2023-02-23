@@ -1,0 +1,5 @@
+.cover__background {
+  margin: 0 auto;
+  object-fit: cover;
+  margin-top: 350px;
+}

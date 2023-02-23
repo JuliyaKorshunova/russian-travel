@@ -1,0 +1,27 @@
+.footer__link {
+  min-width: 50px;
+  max-height: 18px;
+  
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: left;
+  color: #FFFFFF;
+  list-style-type: none;
+  display: flex;
+  margin-right: 18px;
+  list-style-type: none;
+  text-decoration: none;
+  transition: opacity .5s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    max-width: 74px;
+    max-height: 24px;
+    text-align: left;
+    display: flex;
+    gap: 32px;
+  }
+}
