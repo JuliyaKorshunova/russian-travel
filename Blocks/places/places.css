@@ -1,5 +1,32 @@
 .places {
   max-width: 984px;
-  max-height: 3392px;
-  padding-left: 148px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+ grid-template-rows: 1fr 1fr;
+  align-items: end;
+  gap: 80px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+    max-width: calc(928px + (984 - 928) * ((100vw - 1024px) / (1280 - 1024)));
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    max-width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    max-width: calc(320px + (720 - 320) * ((100vw - 320px) / (768 - 320)));
+    margin-top: 64px;
+    gap: 50px;
+  }
 }

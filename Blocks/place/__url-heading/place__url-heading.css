@@ -6,33 +6,10 @@
     line-height: 12px;
     letter-spacing: 2px;
     color: #AAAAAA;
+    text-transform: uppercase;
     
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding-bottom: 12px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
     max-width: 456px;
-    max-height: 12px;
 }
-
-@media screen and (max-width: 1279px) {
-    .place__url-heading {
-      max-width: 456px;
-      max-height: 12px;
-    }
-   }
-  
-  @media screen and (max-width: 1023px) {
-    .place__url-heading {
-      max-width: 352px;
-      max-height: 12px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .place__url-heading {
-      max-width: 288px;
-      max-height: 12px;
-    }
-  }

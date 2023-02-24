@@ -1,0 +1,13 @@
+.place__paragraph-text {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph-wrapper {
+      margin-left: 16px;
+      margin-right: 16px;
+  }
+}

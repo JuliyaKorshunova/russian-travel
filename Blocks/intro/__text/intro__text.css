@@ -6,29 +6,25 @@
   line-height: 26.08px;
   color: #FFFFFF;
   
-  width: 690px;
-  height: 208px;
+  max-width: 690px;
   margin-bottom: 33px;
 }
 
 @media screen and (max-width: 1279px) {
   .intro__text {
     max-width: 690px;
-    max-height: 208px;
   }
- }
+}
 
 @media screen and (max-width: 1023px) {
   .intro__text {
     max-width: 720px;
-    max-height: 208px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__text {
     max-width: 288px;
-    max-height: 520px;
     font-size: 16px;
     line-height: 26.08px;
   }

@@ -1,7 +1,10 @@
 .page {
+  font-family: 'Inter', sans-serif;
+  flex-direction: column;
   position: relative;
-  width: 1280px;
-  min-height: 6875px;
+  max-width: 1280px;
+  min-width: 320px;
   background: #2A2C2F;
+  box-sizing: border-box;
   margin: 0 auto;
 }

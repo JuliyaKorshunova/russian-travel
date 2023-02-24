@@ -9,9 +9,9 @@
     margin: 0 auto;
     padding-bottom: 26px;
     max-width: 484px;
-}
+ }
 
-@media screen and (max-width: 1279px) {
+  @media screen and (max-width: 1279px) {
     .place__paragraph {
       max-width: 456px;
     }
@@ -20,11 +20,13 @@
   @media screen and (max-width: 1023px) {
     .place__paragraph {
       max-width: 352px;
+      font-size: 16px;
     }
   }
   
   @media screen and (max-width: 767px) {
     .place__paragraph {
       max-width: 288px;
+      font-size: 16px;
     }
   }

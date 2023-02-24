@@ -1,6 +1,5 @@
 .header__lang-list {
   max-width: 1184px;
-  max-height: 52px;
   font-weight: 400;
   font-size: 24px;
   font-family: 'Inter';
@@ -19,20 +18,17 @@
 @media screen and (max-width: 1279px) {
   .header__lang-list {
     max-width: 928px;
-    max-height: 52px;
   }
  }
 
 @media screen and (max-width: 1023px) {
   .header__lang-list {
     max-width: 720px;
-    max-height: 52px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header__lang-list {
     max-width: 288px;
-    max-height: 42px;
   }
 }
