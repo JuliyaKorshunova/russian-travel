@@ -11,7 +11,6 @@
   list-style-type: none;
   display: flex;
   margin-right: 18px;
-  list-style-type: none;
   text-decoration: none;
   transition: opacity .5s ease-in-out;
 }
