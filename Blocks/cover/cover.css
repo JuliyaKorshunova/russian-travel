@@ -1,29 +1,73 @@
 .cover {
-  margin: 0;
-  padding: 0;
-  margin-top: 92px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media screen and (max-width: 1279px) {
-  .cover {
-    max-width: 1024px;
-    max-height: 640px;
+    margin: 0;
+    margin-top: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 1184px;
+    min-width: 320px;
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url("./../../Images/cover-trains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    box-sizing: border-box;
   }
- }
-@media screen and (max-width: 1023px) {
-  .cover {
-    max-width: 768px;
-    max-height: 480px;
+  
+  .cover:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity .5s ease-in-out;
+    z-index: 2;
   }
-}
-@media screen and (max-width: 767px) {
-  .cover {
-    max-width: 320px;
-    max-height: 200px;
+  
+  .cover:hover:before {
+    opacity: 0.8;
+    z-index: 2;
   }
-}
+  
+  .cover:hover {
+    cursor: url("./../../images/cursor.png"), pointer;
+  }
+  
+  
+  
+  @media screen and (max-width: 1279px) {
+    .cover {
+      min-height: calc(640px + (740 - 640) * ((100vw - 1024px) / (1280 - 1024)));
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+     }
+   }
+  
+  @media screen and (max-width: 1023px) {
+    .cover {
+      min-height: calc(480px + (640 - 480) * ((100vw - 768px) / (1023 - 768)));
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .cover {
+      min-height: calc(200px + (480 - 200) * ((100vw - 320px)/(767 - 320)));
+      margin-top: calc(66px + (90 - 66) * ((100vw - 320px) / (767 - 320)));
+    }
+  }
+    
+  @media screen and (max-width: 320px) {
+    .cover {
+      min-height: 200px;
+      margin-top: 66px;
+    }
+   }

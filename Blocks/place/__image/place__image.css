@@ -1,9 +1,4 @@
 .place__image {
-    grid-area: image;
-    max-width: 460px;
-    max-height: 460px;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    width: 100%;
+    object-fit: contain;
 }

@@ -1,26 +1,27 @@
 .footer__link {
-  min-width: 50px;
-  max-height: 18px;
-  
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
-  text-align: left;
   color: #FFFFFF;
-  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
   display: flex;
   margin-right: 18px;
   text-decoration: none;
   transition: opacity .5s ease-in-out;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+  cursor: url("./../../../images/cursor.png"), pointer;
+}
+
 @media screen and (max-width: 767px) {
   .footer__link {
-    max-width: 74px;
-    max-height: 24px;
-    text-align: left;
-    display: flex;
-    gap: 32px;
+    margin-bottom: 34px;
+    font-size: 24px;
+    line-height: 24px;
   }
 }

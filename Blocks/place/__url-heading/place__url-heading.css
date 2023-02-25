@@ -1,5 +1,5 @@
 .place__url-heading {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -10,6 +10,4 @@
     
     margin: 0;
     padding: 0;
-    margin-bottom: 12px;
-    max-width: 456px;
 }
