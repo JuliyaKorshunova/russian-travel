@@ -19,7 +19,7 @@
   .place {
     max-width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));
     column-gap: calc(28px + (32 - 28) * ((100vw - 768px) / (1024 - 768)));
-    grid-template-columns: calc(340px + (440 - 340) * ((100vw - 768px) / (1024 - 768))) calc(352px + (456-352) * ((100vw - 768px) / (1024 - 768)));
+    grid-template-columns: calc(340px + (440 - 340) * ((100vw - 768px) / (1024 - 768))) calc(352px + (456 - 352) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
