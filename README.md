@@ -13,3 +13,5 @@
 В проекте используется шрифты Intro, находятся в папке ./vendor/fonts/.
 
 Также проект выложен на GitHub Pages:
+
+https://juliyakorshunova.github.io/russian-travel/index.html
