@@ -1,12 +1,11 @@
 .header {
   margin: 0;
   padding: 0;
-  max-width: 1280px;
-  min-width: 288px;
   margin-top: 28px;
   margin-left: 48px;
   margin-right: 48px;
-  margin-bottom: 56px;
+  max-width: 1184px;
+  min-width: 288px;
   display: flex;
   justify-content: space-between;
   align-items: end;

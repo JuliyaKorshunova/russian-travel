@@ -11,3 +11,10 @@
       margin-right: 16px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__paragraph-text {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

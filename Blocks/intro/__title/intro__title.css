@@ -15,15 +15,14 @@
 
 @media screen and (max-width: 1023px) {
   .intro__title {
-    max-width: 720px;
-    padding-left: 24;
+    margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__title {
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
+    margin-top: 64px;
+    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (767 - 320)));
+    line-height: calc(35px + (58 - 35) * ((100vw - 320px)/(767 - 320)));
   }
 }

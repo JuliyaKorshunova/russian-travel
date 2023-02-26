@@ -5,8 +5,8 @@
 }
 
 @media screen and (max-width: 767px) {
-  .place {
-    min-width: 142px;
-    min-height: 42px;
+  .header__logo {
+    max-width: 142px;
+    max-height: 42px;
   }
 }
