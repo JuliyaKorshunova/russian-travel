@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    background-image: url("../../Images/cover-trains.jpg");
+    background-image: url("../../images/cover-trains.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-decoration: none;
