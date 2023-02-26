@@ -15,6 +15,3 @@
 Также проект выложен на GitHub Pages:
 
 https://juliyakorshunova.github.io/russian-travel/index.html
-
-**Здрвствуйте. Ищу решение по размещению сайта. С остальным, вроде, все отлично. Названия папок Blocks на blocks и Images на images изменила сразу, но файлы пушатся на Гитхаб в старые папки, ищу решение.**
-https://github.com/JuliyaKorshunova/russian-travel.git - мой репозиторий.
